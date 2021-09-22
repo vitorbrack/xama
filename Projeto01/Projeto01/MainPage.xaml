@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Projeto01.MainPage">
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <!-- Place new controls here -->
+            <Frame BackgroundColor="#2196F3" Padding="18" CornerRadius="0">
+                <Label Text="Meu primeiro Projeto Xamarim" HorizontalTextAlignment="Center"
+                   TextColor="White" FontSize="24"/>
+            </Frame>
+            <Label Text="Texto 01" FontSize="Title" Padding="30,10,30,10"/>
+            <StackLayout Orientation="Horizontal">
+               
+                <Button Text="ola" BackgroundColor="#333"  TextColor="White" HorizontalOptions="Center"  Clicked="btEnviar"/>
+               
+            </StackLayout>
+         
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
